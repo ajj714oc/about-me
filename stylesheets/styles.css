@@ -11,13 +11,6 @@ header  { text-decoration: #1DA7AD;
 
         }
         
-.container { position: relative; /* Ensure the container is a positioned parent for absolute positioning */
-           }
-
-.main-image { position: absolute;
-        top: 0;
-        right: 0;
-      }
       .container {
         border: 1px solid #ccc; /* Add borders to the container */
         padding: 20px; /* Add padding to create space around content */
