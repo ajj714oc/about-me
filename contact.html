@@ -18,18 +18,33 @@
         <h3>Contact me:</h3>
         <a href = "mailto: outlandico@gmail.com">Send Email</a>
     
+        <form id="emailForm">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    
         <script>
-            // Display a confirmation dialog
-var result = confirm("Would you like to leave your email?");
-
-// Check the result of the confirmation
-if (result) {
-    // If the user clicked "OK"
-    alert("Your email was added.");
-} else {
-    // If the user clicked "Cancel"
-    alert("It was cancelled successfully.");
-}
+            // Get the form element
+            var form = document.getElementById('emailForm');
+    
+            // Add an event listener for the form submission
+            form.addEventListener('submit', function(event) {
+                // Prevent the default form submission
+                event.preventDefault();
+    
+                // Get the value entered in the email input field
+                var email = document.getElementById('email').value;
+    
+                // Validate the email using a regular expression
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (emailPattern.test(email)) {
+                    // If the email is valid, do something with it (e.g., send it to the server)
+                    alert("Email submitted: " + email);
+                } else {
+                    // If the email is not valid, display an error message
+                    alert("Please enter a valid email address.");
+                }
         </script>
         
         <footer>
