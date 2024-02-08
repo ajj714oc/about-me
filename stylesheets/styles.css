@@ -73,6 +73,8 @@ img     { border-color: rgb(0, 255, 255);
 
         }
 
-        #form-container { margin-top: 100px;
+#form-container { margin-top: 100px;
+                  margin-left: 50px;
+                  position: relative;
 
         }
