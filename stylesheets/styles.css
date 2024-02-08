@@ -38,7 +38,9 @@ header  { text-decoration: #1DA7AD;
       .rounded-image { border-radius: 50%;
                        border: 24px solid #92d5cf; /* You can adjust border properties as needed */
       }
-      nav ul {
+      nav ul { 
+        text-align: center;
+        font-size: large;
         list-style: none; /* Remove bullet points */
         padding: 0;
         margin: 0;
