@@ -7,7 +7,7 @@
  
 
     function didYouEnjoyYourVisit() {
-        let visit = prompt("Did you enjoy your visit to my site today?");
+        let visit = confirm("Did you enjoy your visit to my site today?");
         if (visit === "yes" || visit === "No") {
             document.write("Would you consider visiting again?");
         } else {
