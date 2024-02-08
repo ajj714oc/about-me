@@ -21,7 +21,7 @@ header  { text-decoration: #1DA7AD;
                   border-radius: 50%; /* Makes the container circular */
                   overflow: hidden; /* Ensures the image stays within the circular container */
                   border: 2px solid #000; /* Adds a border around the circular container */
-                  position: relative;
+                  
                 }
               
 .logo-container img { width: 100%; /* Makes the image fill the circular container */
