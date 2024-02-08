@@ -1,6 +1,6 @@
    // JavaScript function to confirm yes or no
    function askYesOrNo() {
-    var response = confirm("Did you enjoy your visit to my site today?");
+    var response = confirm("Please confirm with yes or no:");
     if (response) {
         alert("You confirmed with 'Yes'");
     } else {
