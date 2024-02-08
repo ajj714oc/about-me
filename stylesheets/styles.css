@@ -22,8 +22,8 @@ header  { text-decoration: #1DA7AD;
         margin-bottom: 10px; /* Add margin below images */
       }
 
-.logo-container { width: 100px; /* Adjust width and height to fit your logo size */
-                  height: 100px;
+.logo-container { width: 50px; /* Adjust width and height to fit your logo size */
+                  height: 200px;
                   margin-right: 10px;
                   border-radius: 50%; /* Makes the container circular */
                   overflow: hidden; /* Ensures the image stays within the circular container */
