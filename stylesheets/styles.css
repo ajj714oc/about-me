@@ -45,7 +45,7 @@ nav ul {
                     
                     nav ul li a {
                         text-decoration: none; /* Removes the underline */
-                        color: black; /* Example color */
+                   s     color: rgb(226, 206, 206); /* Example color */
                     }
                     
                     /* Optionally, you can style the links on hover */
