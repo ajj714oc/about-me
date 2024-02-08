@@ -1,6 +1,21 @@
 body { background-color: #111;
+        color: #f0f0f0;
 
         }
-img {  
+
+h1      { color: #f0f0f0;
+
+        }
+
+header  {  
+        text-decoration: #1DA7AD;
+
+        }
+
+li      { display: inline;
+        }
+
+img     {  border-color: rgb(0, 255, 255);
+        border-style: solid;
 
         }
