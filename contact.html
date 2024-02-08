@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="stylesheets/styles.css"
+</head>
+<body>
+    <header>
+        <h1>Contact Page</h1>
+        <div class="logo-container">
+            <img src="images/main-photo.jpg" width="100" height="50" alt="main-photo">
+        </div>
+        <div class="nav">
+            <Ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </Ul>
+            </div>
+    </header>
+        
+        <form id="emailForm">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    
+        <script>
+            // Get the form element
+            var form = document.getElementById('emailForm');
+    
+            // Add an event listener for the form submission
+            form.addEventListener('submit', function(event) {
+                // Prevent the default form submission
+                event.preventDefault();
+    
+                // Get the value entered in the email input field
+                var email = document.getElementById('email').value;
+    
+                // Validate the email using a regular expression
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (emailPattern.test(email)) {
+                    // If the email is valid, do something with it (e.g., send it to the server)
+                    alert("Email submitted: " + email);
+                } else {
+                    // If the email is not valid, display an error message
+                    alert("Please enter a valid email address.");
+                }
+            });
+        </script>
+        <footer>
+            <h3 style="background-color: #000; color: white;">Published by Adam Jimenez 2024</h3>
+        </footer>
+
+</body>
+</html>
