@@ -72,5 +72,6 @@ header  { text-decoration: #1DA7AD;
 
 img     { border-color: rgb(0, 255, 255);
           border-style: solid;
+          display: inline;
 
         }
