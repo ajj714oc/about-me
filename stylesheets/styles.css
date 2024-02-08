@@ -7,15 +7,22 @@ h1      { color: #f0f0f0;
 
         }
 
-header  {  
-        text-decoration: #1DA7AD;
+header  { text-decoration: #1DA7AD;
 
         }
 
 li      { display: inline;
         }
 
-img     {  border-color: rgb(0, 255, 255);
-        border-style: solid;
+.image-container { display: flex;
+                   justify-content: center; /* This centers the images horizontally */
+        }
+              
+.image-container img { max-width: 100%; /* Ensures images don't exceed their container width */
+                       margin: 0 10px; /* Adjust margin as needed to create spacing between images */
+        }
+
+img     { border-color: rgb(0, 255, 255);
+          border-style: solid;
 
         }
