@@ -12,8 +12,7 @@ header  { text-decoration: #1DA7AD;
         }
         
       .container {
-        border: 1px solid #ccc; /* Add borders to the container */
-        padding: 20px; /* Add padding to create space around content */
+       
         margin-bottom: 20px; /* Add margin to create space between containers */
       }
       .container img {
@@ -26,7 +25,7 @@ header  { text-decoration: #1DA7AD;
 .logo-container { width: 100px; /* Adjust width and height to fit your logo size */
                   height: 100px;
                   margin-right: 150px;
-                  border-radius: 50%; /* Makes the container circular */
+                  border-radius: 40%; /* Makes the container circular */
                   overflow: hidden; /* Ensures the image stays within the circular container */
                   border: 3px; /* Adds a border around the circular container */
                   float: right; 
