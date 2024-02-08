@@ -72,3 +72,7 @@ img     { border-color: rgb(0, 255, 255);
           display: inline;
 
         }
+
+        #form-container { margin-top: 100px;
+
+        }
