@@ -57,7 +57,8 @@ header  { text-decoration: #1DA7AD;
     
     nav ul li a {
         text-decoration: none; /* Remove underline from links */
-    }
+        color: #7edbd8;
+}
 
 .image-container { display: flex;
                    justify-content: center; /* This centers the images horizontally */
