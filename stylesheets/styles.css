@@ -32,7 +32,7 @@ header  { text-decoration: #1DA7AD;
                 }
               
 .logo-container img { display: flex;
-                      justify-content: center;
+                      justify-content: left;
                     }
       
       .rounded-image { border-radius: 50%;
