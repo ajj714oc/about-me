@@ -2,6 +2,19 @@
 <head>
     <title>My Website</title>
     <link rel="stylesheet" href="stylesheets/styles.css"
+    <style>
+        .container {
+          border: 1px solid #ccc; /* Add borders to the container */
+          padding: 20px; /* Add padding to create space around content */
+          margin-bottom: 20px; /* Add margin to create space between containers */
+        }
+        .container img {
+          max-width: 100%; /* Ensure images don't exceed container width */
+          height: auto; /* Maintain aspect ratio */
+          display: block; /* Remove extra space below images */
+          margin-bottom: 10px; /* Add margin below images */
+        }
+      </style>
 </head>
 <body>
     <header>
@@ -23,14 +36,32 @@
         <p>Hello, my name is Adam and I am father of three kids. I'm also in a serious relationship with my future wife Trisha. <br>
             We have a Siberian Husky by the name of Sadie. I was in U.S. Navy for about 10 years Active Duty and 2 years <br>
             in the CA Army National Guard.</p>
-        <div class="image-container">
-        <img src="images/trishni.jpeg" width="200" height="200" alt="">
-        <p>"Our husky"</p>
-        <img src="images/sadie.jpg" width="200" height="200" alt="">
-        <p>"My kids"</p>
-        <img src="images/celeste.jpg" width="200" height="200" alt="">
-        <img src="images/matt.jpg" width="200" height="200" alt="">
-        <img src="images/sean.jpg" width="200" height="200" alt="">
+            <div class="container">
+                <img src="images/trishni.jpeg" width="200" height="200" alt="">
+                <p>This is the paragraph for Image 1.</p>
+              </div>
+              
+              <div class="container">
+                <img src="images/sadie.jpg" width="200" height="200" alt="">
+                <p>This is the paragraph for Image 2.</p>
+              </div>
+              
+              <div class="container">
+                <img src="images/celeste.jpg" width="200" height="200" alt="">
+                <p>This is the paragraph for Image 3.</p>
+              </div>
+              <div class="container">
+                <img src="images/matt.jpg" width="200" height="200" alt="">
+                <p>This is the paragraph for Image 4.</p>
+              </div>
+              <div class="container">
+                <img src="images/sean.jpg" width="200" height="200" alt="">
+                <p>This is the paragraph for Image 5.</p>
+              </div>
+
+        
+        
+       
         </div>
         
         <footer>
