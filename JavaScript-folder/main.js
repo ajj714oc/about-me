@@ -4,15 +4,14 @@
  // Display a greeting message using the entered name
  alert("Hello, " + userName + "! Welcome to my website.");
 
- 
-
- function didYouEnjoyYourVisit() {
-    let visit = confirm("Did you enjoy your visit to my site today?");
-    if (visit) {
-        // User clicked "OK" (true)
-        alert("Great! Would you consider visiting again?");
+ function askYesOrNo() {
+    var response = confirm("Please confirm with yes or no:");
+    if (response) {
+        alert("You confirmed with 'Yes'");
     } else {
-        // User clicked "Cancel" (false)
-        alert("Thank you for your honest opinion!");
+        alert("You confirmed with 'No'");
     }
 }
+
+// Call the function
+askYesOrNo();
