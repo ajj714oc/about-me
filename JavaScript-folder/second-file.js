@@ -1,12 +1,13 @@
-   // JavaScript function to confirm yes or no
-   function askYesOrNo() {
-    var response = confirm("Please confirm with yes or no:");
-    if (response) {
-        alert("You confirmed with 'Yes'");
-    } else {
-        alert("You confirmed with 'No'");
-    }
-}
 
-// Call the function
-askYesOrNo();
+    // JavaScript function to confirm yes or no
+    function askYesOrNo() {
+        var response = confirm("Did you enjoy your visit to my site today?");
+        if (response) {
+            alert("That's great!");
+        } else {
+            alert("Thank you for your honest opinion!");
+        }
+    }
+
+    // Call the function
+    askYesOrNo();
