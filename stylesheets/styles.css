@@ -57,7 +57,8 @@ header  { text-decoration: #1DA7AD;
     
     nav ul li a {
         text-decoration: none; /* Remove underline from links */
-    }
+        color: #7edbd8;
+}
 
 .image-container { display: flex;
                    justify-content: center; /* This centers the images horizontally */
@@ -70,5 +71,11 @@ header  { text-decoration: #1DA7AD;
 img     { border-color: rgb(0, 255, 255);
           border-style: solid;
           display: inline;
+
+        }
+
+#form-container { margin-top: 100px;
+                  margin-left: 50px;
+                  position: relative;
 
         }
