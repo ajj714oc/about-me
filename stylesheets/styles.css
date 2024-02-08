@@ -26,7 +26,7 @@ header  { text-decoration: #1DA7AD;
       .container img {
         max-width: 100%; /* Ensure images don't exceed container width */
         height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove extra space below images */
+        display:inline-block; /* Remove extra space below images */
         margin-bottom: 10px; /* Add margin below images */
       }
 
