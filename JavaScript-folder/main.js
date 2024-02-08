@@ -4,12 +4,16 @@
  // Display a greeting message using the entered name
  alert("Hello, " + userName + "! Welcome to my website.");
 
- function askYesOrNo() {
-    var response = confirm("Please confirm with yes or no:");
+
+
+
+  // JavaScript function to confirm yes or no
+  function askYesOrNo() {
+    var response = confirm("Did you enjoy your visit to my site today?");
     if (response) {
-        alert("You confirmed with 'Yes'");
+        alert("Thank you for visitig!");
     } else {
-        alert("You confirmed with 'No'");
+        alert("Thank you for your honest opinion!");
     }
 }
 
