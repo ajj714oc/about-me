@@ -30,10 +30,6 @@ header  { text-decoration: #1DA7AD;
                   border: 3px; /* Adds a border around the circular container */
                   float: right; 
                 }
-              
-.logo-container img { display: flex;
-                      justify-content: left;
-                    }
       
       
       nav ul { 
