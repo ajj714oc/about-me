@@ -31,7 +31,7 @@ header  { text-decoration: #1DA7AD;
                   float: right; 
                 }
               
-.logo-container img { width: 30%; /* Makes the image fill the circular container */
+.logo-container img { width: 70%; /* Makes the image fill the circular container */
                       height: auto; /* Preserves aspect ratio */
                       display: inline; /* Ensures the image behaves like a block element */
                 }
