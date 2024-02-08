@@ -25,7 +25,7 @@ header  { text-decoration: #1DA7AD;
 .logo-container { width: 100px; /* Adjust width and height to fit your logo size */
                   height: 100px;
                   margin-right: 150px;
-                  border-radius: 40%; /* Makes the container circular */
+                  border-radius: 80%; /* Makes the container circular */
                   overflow: hidden; /* Ensures the image stays within the circular container */
                   border: 3px; /* Adds a border around the circular container */
                   float: right; 
