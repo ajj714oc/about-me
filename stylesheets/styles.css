@@ -21,7 +21,8 @@ header  { text-decoration: #1DA7AD;
         display:inline; /* Remove extra space below images */
         margin-bottom: 10px; /* Add margin below images */
       }
-
+.first-heading { margin-top: 50px;
+               }
 .logo-container { width: 200px; /* Adjust width and height to fit your logo size */
                   height: 200px;
                   margin-right: 10px;
