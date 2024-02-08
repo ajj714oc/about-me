@@ -18,6 +18,17 @@ header  { text-decoration: #1DA7AD;
         top: 0;
         right: 0;
       }
+      .container {
+        border: 1px solid #ccc; /* Add borders to the container */
+        padding: 20px; /* Add padding to create space around content */
+        margin-bottom: 20px; /* Add margin to create space between containers */
+      }
+      .container img {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove extra space below images */
+        margin-bottom: 10px; /* Add margin below images */
+      }
 
 .logo-container { width: 100px; /* Adjust width and height to fit your logo size */
                   height: 100px;
