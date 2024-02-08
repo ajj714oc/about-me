@@ -11,6 +11,11 @@ header  { text-decoration: #1DA7AD;
 
         }
 
+.main-imageS { position: absolute;
+        top: 0;
+        right: 0;
+      }
+
 .logo-container { width: 100px; /* Adjust width and height to fit your logo size */
                   height: 100px;
                   border-radius: 50%; /* Makes the container circular */
