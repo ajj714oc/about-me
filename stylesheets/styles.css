@@ -35,27 +35,31 @@ header  { text-decoration: #1DA7AD;
                 }
       
       
-      nav ul { 
-        text-align: center;
-        font-size: large;
-        list-style: none; /* Remove bullet points */
-        padding: 0;
-        margin: 0;
-    }
-    
-    nav ul li {
-        display: inline; /* Display list items inline */
-        margin-right: 20px; /* Add spacing between list items */
-    }
-    
-    nav ul li:last-child {
-        margin-right: 0; /* Remove margin from the last list item */
-    }
-    
-    nav ul li a {
-        text-decoration: none; /* Remove underline from links */
-        color: #7edbd8;
-}
+                .horizontal-nav {
+                        background-color: #333; /* Background color for the navigation bar */
+                      }
+                      
+                      .horizontal-nav ul {
+                        list-style-type: none; /* Remove default list styles */
+                        margin: 0;
+                        padding: 0;
+                      }
+                      
+                      .horizontal-nav ul li {
+                        display: inline; /* Display list items horizontally */
+                      }
+                      
+                      .horizontal-nav ul li a {
+                        display: inline-block; /* Make links behave as blocks */
+                        color: white; /* Text color for navigation items */
+                        padding: 10px 20px; /* Add padding for spacing */
+                        text-decoration: none; /* Remove default underline */
+                      }
+                      
+                      .horizontal-nav ul li a:hover {
+                        background-color: #555; /* Change background color on hover */
+                      }
+                      
 
 .image-container { display: flex;
                    justify-content: center; /* This centers the images horizontally */
