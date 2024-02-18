@@ -39,17 +39,17 @@ header  { text-decoration: #1DA7AD;
                         background-color: #333; /* Background color for the navigation bar */
                       }
                       
-                      .horizontal-nav ul {
+                      ul {
                         list-style-type: none; /* Remove default list styles */
                         margin: 0;
                         padding: 0;
                       }
                       
-                      .horizontal-nav ul li {
+                      ul li {
                         display: inline; /* Display list items horizontally */
                       }
                       
-                      .horizontal-nav ul li a {
+                      ul li a {
                         display: inline-block; /* Make links behave as blocks */
                         color: white; /* Text color for navigation items */
                         padding: 10px 20px; /* Add padding for spacing */
